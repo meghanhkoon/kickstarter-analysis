@@ -1,5 +1,5 @@
 # An Analysis of Kickstarter Campaigns
-Performing analysis on Kickstarter data to uncover trends for client who wants to crowdfund a playwright.
+## Performing analysis on Kickstarter data to uncover trends for client who wants to crowdfund a playwright.
 Throughout this Kickstarter Analysis, we did research for Louise who wants to know how to make her crowdfunding campaign successful. While looking at similar successful campaigns, the analysis using Excel will hopefully help her better understand how to fund her play "Fever." 
 
 While working with the data set from different successful and unsuccessful fundraising campaigns, we are able to analyze that: 
