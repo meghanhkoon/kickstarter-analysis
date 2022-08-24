@@ -3,7 +3,20 @@
 ## Overview of Project
 
 ### Purpose and Background
-After fundraising for her play 'Fever,' Louise wants to know how different campaigns were successful using the information we have on crowdfunding different Kickstarters. Specifically, Louise wants us to look at the relationship between launch dates and funding goals. The purpose is to analyze different fundraising scenarios - specifically finding outcomes based on launch date start for theatres and outcomes based on monetary goals for plays. 
+**Background**
+Louise, a playwrite, wants to create a successful crowdfunding campaign to fund her play 'Fever'. Initially, she is asking for $10,000. She wants us to analyze previous crowdfunding campaign data in Excel to ensure that her fundraising campaign will be successful. 
+
+With looking at the initial data of the crowdfunding data in the US, we found that out of the parent categories, theatre had the most successful outcomes (525 successes out of a total of 3,038 campaigns). Within the parent category of theatre, we see that there are more successful outcomes (238 out of a total of 314). See the pivot charts below. 
+
+![Parent_Categories](https://user-images.githubusercontent.com/110576028/186540824-005bf507-0bce-4cac-8170-e0d8e1501836.png)
+![Subcategory_Outcomes](https://user-images.githubusercontent.com/110576028/186540833-e0cb84cf-9154-450c-812b-7e4bab0b9c0c.png)
+
+From here, we looked at Successful vs. Failed US Kickstarters and analyzed the statistics of their goals and pledges. We can assume that failed kickstarter campaigns had much higher fundraising goals than those who were successful in the US. 
+
+<img width="492" alt="Screen Shot 2022-08-24 at 1 32 23 PM" src="https://user-images.githubusercontent.com/110576028/186541395-261daf54-2287-45f9-8a79-159018dfb82c.png">
+
+**Purpose** 
+After fundraising for her play *Fever*, Louise wants to know how different campaigns were successful using the information we have on crowdfunding different Kickstarters. Specifically, Louise wants us to look at the relationship between launch dates and funding goals. The purpose is to analyze different fundraising scenarios - specifically finding outcomes based on launch date start for theatres and outcomes based on monetary goals for plays. 
 
 ## Analysis and Challenges
 
