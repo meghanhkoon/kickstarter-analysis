@@ -37,20 +37,27 @@ We know that if the fundraising goal is met by the pledges and backers of a camp
 ### Challenges and Difficulties Encountered
 A challenge that occured while creating this analysis for Louise was creating the Outcomes Based on Goals table. With the COUNTIF() function, order matters of the filtering of the criteria. I I originally put the end goal after the criteria of counting "plays" from the Kickstarter Goal column. For example, the function I first used was: =COUNTIFS(Kickstarter!F:F, "failed", Kickstarter!D:D, ">=1000", Kickstarter!R:R, "plays", Kickstarter!D:D, "<=4999"). After copying the formulas throughout the rest of the table, creating a graph, and seeing if the solution matched - it did not. Then I realized that order matters for the formula. Instead, the corrected formula for cell C3 on the Outcomes Based on Goals sheet is: =COUNTIFS(Kickstarter!F:F, "failed", Kickstarter!D:D, ">=1000", Kickstarter!D:D, "<=4999", Kickstarter!R:R, "plays").
 
+Another difficulty encountered was writing the summaries and data analysis from the information procured on Microsoft Excel. As a math major, doing the actual formulas and solutions are easier than word problems! After re-reading through the modules and trying to make more sense of the data, I was able to have a clearer understanding of the background of the numbers and the story we wanted our numbers to tell. 
+
 ## Results
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
 
-1. The month that launched the most successful theatre campaigns were in the month of May. 
-2. We also see that from November to December, successful theatre kickstarters decline while failed outcomes increase. This means that Louise should not launch her fundraising campaign during November - December. 
+1. The month that launched the most successful theatre campaigns were in the month of May (111) and June (100). We also see that more campaigns were launched in these months (total launched = 166 and 153) vs. December (75). 
+2. We also see that from November to December, successful theatre kickstarters decline while failed outcomes increase. This means that Louise should not launch her fundraising campaign during November - December. Specifically, we see that launching kickstarters in December has almost the same amount of successes (37) and failure campaigns (35).
 
 - What can you conclude about the Outcomes based on Goals?
 
-From the chart "Outcomes Based on Goals," we can conclude that fundraisers with goals below $5000 have a better chance at being successful. After a goal of $5000, the percentage of failed kickstarters start to increase. This means that Louise should lower her initial kickstarter campaign goal from $10,000 to $5000 or below. 
+1. From the chart "Outcomes Based on Goals," we can conclude that fundraisers with goals below $5000 have a better chance at being successful. 2. After a goal of $5000, the percentage of failed kickstarters start to increase. From this information, we can suggest that Louise should lower her initial kickstarter campaign goal from $10,000 to $5000 or below. 
 
 - What are some limitations of this dataset?
-
+1. Some limitations of this dataset is that there is no new data since the year 2017. If we had more up-to-date information, we would have a more accurate depiction for suggestions for Louise's campaign.
+2. 
 
 - What are some other possible tables and/or graphs that we could create?
 
-
+Some other tables/ graphs that would be helpful for Louise would be: 
+1. Adding a filter for country to the pivot table for sheet 'Theatre Outcomes by Launch Date'.
+2. Adding percentage of success and failure for Theatre Outcomes Based on Launch Dates table 
+3. Descriptive Statistics table and box plot for Successful Vs. Failed US Kickstarters for theater plays 
+4. Table and graph showing if there is a correlation for the length of a kickstarter and rate of success
