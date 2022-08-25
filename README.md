@@ -3,7 +3,7 @@
 ## Overview of Project
 
 ### Purpose and Background
-**Background**
+**Background** 
 
 Louise, a playwrite, wants to create a successful crowdfunding campaign to fund her play 'Fever'. Initially, she is asking for $10,000. She wants us to analyze previous crowdfunding campaign data in Excel to ensure that her fundraising campaign will be successful. 
 
@@ -35,7 +35,7 @@ We know that if the fundraising goal is met by the pledges and backers of a camp
 ![Outcomes_vs_Goals](resources/Outcomes_vs_Goals.png)
 
 ### Challenges and Difficulties Encountered
-
+A challenge that occured while creating this analysis for Louise was creating the Outcomes Based on Goals table. With the COUNTIF() function, order matters of the filtering of the criteria. I I originally put the end goal after the criteria of counting "plays" from the Kickstarter Goal column. For example, the function I first used was: =COUNTIFS(Kickstarter!F:F, "failed", Kickstarter!D:D, ">=1000", Kickstarter!R:R, "plays", Kickstarter!D:D, "<=4999"). After copying the formulas throughout the rest of the table, creating a graph, and seeing if the solution matched - it did not. Then I realized that order matters for the formula. Instead, the corrected formula for cell C3 on the Outcomes Based on Goals sheet is: =COUNTIFS(Kickstarter!F:F, "failed", Kickstarter!D:D, ">=1000", Kickstarter!D:D, "<=4999", Kickstarter!R:R, "plays").
 
 ## Results
 
