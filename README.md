@@ -9,12 +9,13 @@ Louise, a playwrite, wants to create a successful crowdfunding campaign to fund 
 
 With looking at the initial data of the crowdfunding data in the US, we found that out of the parent categories, theatre had the most successful outcomes (525 successes out of a total of 3,038 campaigns). Within the parent category of theatre, we see that there are more successful outcomes (238 out of a total of 314). See the pivot charts below. 
 
-![Parent_Categories](https://user-images.githubusercontent.com/110576028/186540824-005bf507-0bce-4cac-8170-e0d8e1501836.png)
-![Subcategory_Outcomes](https://user-images.githubusercontent.com/110576028/186540833-e0cb84cf-9154-450c-812b-7e4bab0b9c0c.png)
+![Parent_Categories](resources/Parent_Categories.png)
+
+![Subcategory_Outcomes](resources/Subcategory_Outcomes.png)
 
 From here, we looked at Successful vs. Failed US Kickstarters and analyzed the statistics of their goals and pledges. We can assume that failed kickstarter campaigns had much higher fundraising goals than those who were successful in the US. 
 
-<img width="492" alt="Screen Shot 2022-08-24 at 1 32 23 PM" src="https://user-images.githubusercontent.com/110576028/186541395-261daf54-2287-45f9-8a79-159018dfb82c.png">
+![Goals_vs_Pledges](resources/Goals_vs_Pledges.png)
 
 **Purpose** 
 
@@ -25,13 +26,13 @@ After fundraising for her play *Fever*, Louise wants to know how different campa
 ### Analysis of Outcomes Based on Launch Date
 After looking at the outcomes for theatre kickstarters to be successful based on their launch date, we see that May is the best time to launch a campaign. We can also assume that May (111 siccessful), June (100) and July (87) would also be great months to launch. On the other hand, we can also assume that in November (54) and December (37), launch dates were not as successful. Please see the chart below (Theatre Outcomes Based on Launch Date). 
 
-![Theatre_Outcomes_vs_Launch](https://user-images.githubusercontent.com/110576028/185778942-131dd3ef-21cd-4780-8071-5197b8a5c1fd.png)
+![Theatre_Outcomes_vs_Launch](resources/Theatre_Outcomes_vs_Launch.png)
 
 
 ### Analysis of Outcomes Based on Goals
 We know that if the fundraising goal is met by the pledges and backers of a campaign, a campaign will more likely be successful. From the Kickstarter data, we were able to filter and determine the percentage of campaigns that were successful, failed or canceled based on their goal. From the data in the line graph below (Outcomes Based on Goal), we can see that the fundraisers with lower goals (< $1000 to $19,999) had higher percentage rates of being successful (>= 50% success rate). Likewise, we see that those who had higher goals had a higher perecentage rate of failing - specifically goals that were above $20,000. 
 
-![Outcomes_vs_Goals](https://user-images.githubusercontent.com/110576028/185778954-ffb0c516-7632-4bad-aaef-4b60d0ffdab0.png)
+![Outcomes_vs_Goals](resources/Outcomes_vs_Goals.png)
 
 ### Challenges and Difficulties Encountered
 
