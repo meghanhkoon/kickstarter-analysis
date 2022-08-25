@@ -38,7 +38,7 @@ To visualize the percentage of outcomes based on funding goal amount, we created
 
 
 ### Challenges and Difficulties Encountered
-A challenge that occured while creating this analysis for Louise was creating the Outcomes Based on Goals table. With the COUNTIF() function, order matters of the filtering of the criteria. I I originally put the end goal after the criteria of counting "plays" from the Kickstarter Goal column. For example, the function I first used was: =COUNTIFS(Kickstarter!F:F, "failed", Kickstarter!D:D, ">=1000", Kickstarter!R:R, "plays", Kickstarter!D:D, "<=4999"). After copying the formulas throughout the rest of the table, creating a graph, and seeing if the solution matched - it did not. Then I realized that order matters for the formula. Instead, the corrected formula for cell C3 on the Outcomes Based on Goals sheet is: =COUNTIFS(Kickstarter!F:F, "failed", Kickstarter!D:D, ">=1000", Kickstarter!D:D, "<=4999", Kickstarter!R:R, "plays").
+A challenge that occured while creating this analysis for Louise was creating the Outcomes Based on Goals table. With the COUNTIF() function, order matters of the filtering of the criteria. I originally put the end goal after the criteria of counting "plays" from the Kickstarter Goal column. For example, the function I first used was: =COUNTIFS(Kickstarter!F:F, "failed", Kickstarter!D:D, ">=1000", Kickstarter!R:R, "plays", Kickstarter!D:D, "<=4999"). After copying the formulas throughout the rest of the table, creating a graph, and seeing if the solution matched - it did not. Then I realized that order matters for the formula. Instead, the corrected formula for cell C3 on the Outcomes Based on Goals sheet is: =COUNTIFS(Kickstarter!F:F, "failed", Kickstarter!D:D, ">=1000", Kickstarter!D:D, "<=4999", Kickstarter!R:R, "plays").
 
 Another difficulty encountered was writing the summaries and data analysis from the information procured on Microsoft Excel. As a math major, doing the actual formulas and solutions are easier than word problems! After re-reading through the modules and trying to make more sense of the data, I was able to have a clearer understanding of the background of the numbers and the story we wanted our numbers to tell. 
 
@@ -52,19 +52,20 @@ Another difficulty encountered was writing the summaries and data analysis from 
 
 - What can you conclude about the Outcomes based on Goals?
 
-1. From the data in the line graph Outcomes Based on Goal, we can see that the fundraisers with lower goals (< $1000 to $14,999) had higher percentage rates of being successful (>= 50% success rate). From the Percentage Failed, we see that those who had higher goals had a higher perecentage rate of failing - specifically goals that were above $14,999. 
-2. We see the most success with kickstarters who have below a $4999 goal (an average of 74.5% success). From this, my final recommendation would be for Louise to lower her initial goal amount from $10,000 to $5000 to increase her chances of success in fundraising her project. 
+1. From the data in the line graph Outcomes Based on Goal, we can see that the fundraisers with lower goals (< $1000 to $14,999) had higher percentage rates of being successful (>= 50% success rate). 
+2. From the Percentage Failed, we see that those who had higher goals had a higher perecentage rate of failing - specifically goals that were above $14,999. 
+3. We see the most success with kickstarters who have below a $4999 goal (an average of 74.5% success). From this, my final recommendation would be for Louise to lower her initial goal amount from $10,000 to $5000 to increase her chances of success in fundraising her project. 
 
 - What are some limitations of this dataset?
 
 1. Some limitations of this dataset is that there is no new data since the year 2017. If we had more up-to-date information, we would have a more accurate depiction for suggestions for Louise's campaign.
-2. The data from Theatre Outcomes by Launch Date and Outcomes Based on Goals were not first filtered to the US only. This is data from all countries. If we wanted to make a more specific data analysis for Louise, we should have filtered to show only US Goals or Outcomes first. 
+2. The data from Theatre Outcomes by Launch Date and Outcomes Based on Goals were not first filtered to the US only. The data in these summaries are not from the US only. If we wanted to make a more specific data analysis for Louise, we should have filtered to show only US Goals or Outcomes first. 
 3. If there were more data for Kickstarter plays, we would have a better understanding of Outcomes Based on Goals. Most of this data comes from the goal range of $1000 to 4999. Right now, we only have a total of 1,043 projects to understand the percentage successful vs failed outcomes based on their monetary goals. 
 
 - What are some other possible tables and/or graphs that we could create?
 
 Some other tables/ graphs that would be helpful for Louise would be: 
 1. Adding a filter for country to the pivot table for sheet 'Theatre Outcomes by Launch Date'. This would allow for more accurate data relating to the US. 
-2. Adding percentage of success and failure for Theatre Outcomes Based on Launch Dates table 
+2. Adding percentage of success and failure for Theatre Outcomes Based on Launch Dates table
 3. Descriptive Statistics table and box plot for Successful Vs. Failed US Kickstarters for theater plays 
 4. Table and graph showing if there is a correlation for the length of a kickstarter and rate of success
