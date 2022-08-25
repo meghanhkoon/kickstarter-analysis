@@ -40,10 +40,16 @@ We know that if the fundraising goal is met by the pledges and backers of a camp
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
 
-
+1. The month that launched the most successful theatre campaigns were in the month of May. 
+2. We also see that from November to December, successful theatre kickstarters decline while failed outcomes increase. This means that Louise should not launch her fundraising campaign during November - December. 
 
 - What can you conclude about the Outcomes based on Goals?
 
+From the chart "Outcomes Based on Goals," we can conclude that fundraisers with goals below $5000 have a better chance at being successful. After a goal of $5000, the percentage of failed kickstarters start to increase. This means that Louise should lower her initial kickstarter campaign goal from $10,000 to $5000 or below. 
+
 - What are some limitations of this dataset?
 
+
 - What are some other possible tables and/or graphs that we could create?
+
+
