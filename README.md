@@ -5,15 +5,13 @@
 ### Purpose and Background
 **Background** 
 
-Louise, a playwrite, wants to create a successful crowdfunding campaign to fund her play 'Fever'. Initially, she is asking for $10,000. She wants us to analyze previous crowdfunding campaign data in Excel to ensure that her fundraising campaign will be successful. 
-
-With looking at the initial data of the crowdfunding data in the US, we found that out of the parent categories, theatre had the most successful outcomes (17%). Within the subcategory "plays," there are more successful vs failed outcomes (67%). See the visualizations made from pivot charts below. 
+Louise, a playwrite, wants to create a successful crowdfunding campaign to fund her play 'Fever'. Initially, she is asking for $10,000. She wants us to analyze previous crowdfunding campaign data in Excel to ensure that her fundraising campaign will be successful. With looking at the initial data of the crowdfunding data in the US, we found that out of the parent categories, theatre was the most successful (17%). Within the subcategory "plays," there are more successful vs failed outcomes (67%). See the visualizations created from pivot charts below. 
 
 ![Parent_Categories](resources/Parent_Categories.png)
 
 ![Sub_Outcomes](resources/Sub_Outcomes.png)
 
-From here, we looked at Successful vs. Failed US Kickstarters and analyzed the statistics of their goals and pledges. We can assume that failed kickstarter campaigns had much higher fundraising goals than those who were successful in the US. 
+From here, we looked at Successful vs. Failed US Kickstarters and analyzed the statistics of their goals and pledges (see table below). We can assume that failed kickstarter campaigns had much higher fundraising goal than those who were successful in the US. 
 
 ![Goals_vs_Pledges](resources/Goals_vs_Pledges.png)
 
@@ -29,13 +27,12 @@ To find the relationship between successful and failed outcomes based on launch 
 
 ![Theatre_Outcomes_vs_Launch](resources/Theatre_Outcomes_vs_Launch.png)
 
-Out of the 1,369 Kickstarter campaigns for theatres, May is the best time to launch a campaign. We can also assume that May (111 successes), June (100) and July (87) would also be great months to launch. On the other hand, we can also assume that in November (54) and December (37), launch dates were not as successful.
-
+Out of the 1,369 Kickstarter campaigns for theatres, May is the best time to launch a campaign. We can also assume that May (111 successes), June (100) and July (87) would also be great months to launch. On the other hand, we can conclude that Louise should not launch in November (54) and December (37).
 
 ### Analysis of Outcomes Based on Goals
-To find the relationship between outcomes based on goals, we created a chart to count how many successful, failed, and canceled campaigns there were based on their goals. We also wanted to find the outcomes of plays. To do this, we created a table using the ***COUNTIF()*** function. For the independent variables, we used increments of goals (Less than 1000, 1000 to 4999, etc.) to see if there was a relationship with the percent successful/ failed/ canceled. For example, we used the formula =COUNTIFS(Kickstarter!F:F,"successful", Kickstarter!D:D, "<1000", Kickstarter!R:R, "plays") to find the Number of Successful campaigns for plays with goals Less than 1000. After making the table, we found the percentage of successful, failed and canceled to make a line chart "Outcomes Based on Goal". 
+We know that if the fundraising goal is met by the pledges and backers of a campaign, a campaign will more likely be successful. From the Kickstarter data, we were able to filter and determine the percentage of campaigns that were successful, failed or canceled based on their goal. 
 
-We know that if the fundraising goal is met by the pledges and backers of a campaign, a campaign will more likely be successful. From the Kickstarter data, we were able to filter and determine the percentage of campaigns that were successful, failed or canceled based on their goal. See the chart below.  
+To visualize the percentage of outcomes based on funding goal amount, we created a table using the ***COUNTIF()*** function. For the independent variable (goal amount), we used increments of goals (Less than 1000, 1000 to 4999, etc.). Then, we used the COUNTIF function to count how many successes, failures and canaceled projects with those goal amounts. As an example, we used the formula =COUNTIFS(Kickstarter!F:F,"successful", Kickstarter!D:D, "<1000", Kickstarter!R:R, "plays") to find the Number of Successful campaigns for plays with goals Less than 1000. After making the table, we found the percentage of successful, failed and canceled to make a line chart "Outcomes Based on Goal". See the chart below.  
 
 ![Outcomes_vs_Goals](resources/Outcomes_vs_Goals.png)
 
